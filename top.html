@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>keita's portfolio HTML/CSS</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="title">
+                <a href="./top.html"><img src="image/logo.png" alt=""></a>
+            <a href="./image/html.png"></a>
+            </div>
+            <ul class="menu-group">
+                <li class="menu-item"><a href="#profile">about me</a></li>
+                <li class="menu-item"><a href="#skill">skill</a></li>
+                <li class="menu-item"><a href="#work">work</a></li>
+                <li class="menu-item"><a href="#contact">contact</a></li>
+            </ul>
+        </header>
+        <div class="top">
+            <h1 class="maintext">keita portfolio</h1>
+        </div>
+
+
+        <section id="profile">
+
+            <div class="contents">
+                <div class="info">
+                <h2>about me</h2>
+                <img src="image/mine.JPG" alt="わしの写真" class="mine">
+                    <p>
+                    氏名：横山慶太<br>
+                    学校名：東京デザインテクノロジーセンター専門学校<br>
+                    学科名：IT・デザイン科<br>
+                    専攻：プログラマ専攻<br>
+                    学習範囲：プログラミング・セキュリティ・ネットワーク<br>
+                    趣味：散歩、音楽鑑賞、筋トレ<br>
+                    メールアドレス：21c1100016yk@edu.tech.ac.jp<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill">
+
+            <div class="contents">
+                <div class="info">
+                <h2>skill</h2>
+                    <div class="bar">
+                        <canvas id="bar" ></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="work">
+
+            <div class="contents">
+                <div class="info">
+                <h2>work</h2>
+                    <div class="link">
+
+                        <div class="image1">
+                            <a href="https://my-site-todo.vercel.app/" target="_blank">
+                                <img src="image/work1.PNG" alt="" class="image">
+                                <div class="mask">
+                                    <div class="caption">Vue.jsでTodoアプリを作成してみました！</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="image1">
+                            <a href="https://gatsby-keita.netlify.app/" target="_blank">
+                                <img src="image/work2.PNG" alt="" class="image">
+                                <div class="mask">
+                                    <div class="caption">gatsbyでいままで訪れた県や国を静的サイトにしてみました！</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="image1">
+                            <a href="https://github.com/Yokoyamakeita/spring_crmapp" target="_blank">
+                                <img src="image/work3.PNG" alt="" class="image">
+                                <div class="mask">
+                                    <div class="caption">Spring bootで簡易的なCRMアプリを作成してみました！</div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        
+                        <div class="image1">
+                            <a href="https://keitaportfolio.azurewebsites.net/" target="_blank">
+                                <img src="image/work4.png" alt="" class="image">
+                                <div class="mask">
+                                    <div class="caption">基本的なHTML/CSS/JS/PHPで自己紹介とブログを紹介しています！</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+
+            <div class="contents">
+                <div class="info">
+                <h2>contact</h2>
+
+                <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact">
+                    <div class="name">
+                        <input id="name" name="name" type="text" class="text1" placeholder="お名前を入力してください"/>
+                    </div>
+                    <br>
+                    <div class="mail">
+                        <input id="email" name="email" type="email" class="text1" 
+                        placeholder="メールアドレスを入力してください" />
+                    </div>
+                    <br>
+                    <div class="message">
+                        <textarea id="message" name="message" class="text2" rows="6" cols="40"
+                        placeholder="メッセージを入力してください"></textarea>
+                    </div>
+                    <br>
+                    <button type="submit">送信</button>
+                </form>
+
+                
+                
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy;2022 keita</p>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
