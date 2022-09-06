@@ -9,7 +9,7 @@
     - [✅] サイト構成：表示型で外部リンクで飛ぶ(外部ページの想定5)
 - [✅] スケジュールを立てる：授業４回分
 (１日：設計、２日：PC板作成、３日：モバイル対応、４日：外部公開)
-- [ ] 制作内容をまとめる
+- [✅] 制作内容をまとめる
 
 ### 🔎 調査
 - [✅] 参考サイトを探す
@@ -33,15 +33,6 @@
             趣味：散歩、音楽鑑賞、筋トレ
             メールアドレス：～～～～～
         skill
-            取得資格
-                LPIC-1
-                PHP技術者認定(初級)
-                AZ-900
-                AI-900
-                PL-900
-                DP-900
-                SC-900
-                MOS(Excel)
             取得スキル
                 プログラム
                     PHP
@@ -50,17 +41,12 @@
                     Java
                     javascript
                     C++
-                ツール
-                    wireshark
-                    github
-                    windows office
-                    illustlater/photoshop
     
 
 
 ### 🧑‍💻 実装
-- [ ] HTMLコーディング
-- [ ] CSSコーディング
+- [✅] HTMLコーディング
+- [✅] CSSコーディング
 
 ---
 
@@ -70,7 +56,7 @@
 - サイト名
     Keita’s Portfolio
 - サイト説明
-    授業内で作成したHTML/CSSを紹介
+    作成した成果物を紹介するHTML/CSSを紹介
 - キャッチコピー
     ポートフォリオを作成
 - 見出し
@@ -79,17 +65,24 @@
 - （リンク先URL）
 
 ### （埋め込み）
-- 動画
-- 地図
-- SNS
+なし
 
 ### デザイン
 - レイアウト
+canvaでデザインの型を作成
+※実際に作成してみて、配色や画像は切り替えていく
 - 配色
+　薄い配色で色々な色を使いたい
 - フォント
+　@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Gulzar&family=Playfair+Display:ital@1&display=swap');
 - 画像
     - 写真
+　　　著作権フリーの画像を使用
     - 図
+　　　chart.jsを使用
     - 装飾
+　　　JQueryでナビバーの動きを付ける
 - ロゴ
+自作
 - アイコン
+フリー素材を引用
